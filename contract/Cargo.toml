@@ -1,0 +1,16 @@
+[package]
+name = "contract"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[lib]
+crate-type = ["lib", "cdylib"]
+doctest = false
+
+[dependencies]
+library = { path = "../library" }
+soroban-sdk = { git = "https://github.com/stellar/rs-soroban-sdk", branch = "i1451" }
+
+[dev-dependencies]
+soroban-sdk = { git = "https://github.com/stellar/rs-soroban-sdk", branch = "i1451", features = ["testutils"] }
