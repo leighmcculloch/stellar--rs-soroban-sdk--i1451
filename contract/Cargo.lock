@@ -1255,7 +1255,7 @@ dependencies = [
 [[package]]
 name = "soroban-ledger-snapshot"
 version = "23.0.0-rc.2.3"
-source = "git+https://github.com/stellar/rs-soroban-sdk?branch=i1451#cd76a302384748cfa2fcf5fbcbd3b802967179e2"
+source = "git+https://github.com/ahalabs/rs-soroban-sdk?rev=4bdd847e386c8d8256ce7afef2b684899d3f189c#4bdd847e386c8d8256ce7afef2b684899d3f189c"
 dependencies = [
  "serde",
  "serde_json",
@@ -1268,7 +1268,7 @@ dependencies = [
 [[package]]
 name = "soroban-sdk"
 version = "23.0.0-rc.2.3"
-source = "git+https://github.com/stellar/rs-soroban-sdk?branch=i1451#cd76a302384748cfa2fcf5fbcbd3b802967179e2"
+source = "git+https://github.com/ahalabs/rs-soroban-sdk?rev=4bdd847e386c8d8256ce7afef2b684899d3f189c#4bdd847e386c8d8256ce7afef2b684899d3f189c"
 dependencies = [
  "arbitrary",
  "bytes-lit",
@@ -1290,7 +1290,7 @@ dependencies = [
 [[package]]
 name = "soroban-sdk-macros"
 version = "23.0.0-rc.2.3"
-source = "git+https://github.com/stellar/rs-soroban-sdk?branch=i1451#cd76a302384748cfa2fcf5fbcbd3b802967179e2"
+source = "git+https://github.com/ahalabs/rs-soroban-sdk?rev=4bdd847e386c8d8256ce7afef2b684899d3f189c#4bdd847e386c8d8256ce7afef2b684899d3f189c"
 dependencies = [
  "darling",
  "heck",
@@ -1309,7 +1309,7 @@ dependencies = [
 [[package]]
 name = "soroban-spec"
 version = "23.0.0-rc.2.3"
-source = "git+https://github.com/stellar/rs-soroban-sdk?branch=i1451#cd76a302384748cfa2fcf5fbcbd3b802967179e2"
+source = "git+https://github.com/ahalabs/rs-soroban-sdk?rev=4bdd847e386c8d8256ce7afef2b684899d3f189c#4bdd847e386c8d8256ce7afef2b684899d3f189c"
 dependencies = [
  "base64",
  "stellar-xdr",
@@ -1320,7 +1320,7 @@ dependencies = [
 [[package]]
 name = "soroban-spec-rust"
 version = "23.0.0-rc.2.3"
-source = "git+https://github.com/stellar/rs-soroban-sdk?branch=i1451#cd76a302384748cfa2fcf5fbcbd3b802967179e2"
+source = "git+https://github.com/ahalabs/rs-soroban-sdk?rev=4bdd847e386c8d8256ce7afef2b684899d3f189c#4bdd847e386c8d8256ce7afef2b684899d3f189c"
 dependencies = [
  "prettyplease",
  "proc-macro2",

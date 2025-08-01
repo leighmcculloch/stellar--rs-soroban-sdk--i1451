@@ -1,11 +1,11 @@
 #![no_std]
-use soroban_sdk::{contract, contractimpl, Env};
-use library::{Pause, PauseHooks, contractimpl_for_pause};
+use library::{Pause, PauseHooks};
+use soroban_sdk::{contract, contracttrait, Env};
 
 #[contract]
 pub struct Contract;
 
-#[contractimpl]
+#[contracttrait]
 impl Pause for Contract {}
 
 impl PauseHooks for Contract {
