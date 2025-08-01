@@ -9,7 +9,9 @@ crate-type = ["lib"]
 doctest = false
 
 [dependencies]
-soroban-sdk = { git = "https://github.com/stellar/rs-soroban-sdk", branch = "i1451" }
+soroban-sdk = { git = "https://github.com/ahalabs/rs-soroban-sdk", rev = "4bdd847e386c8d8256ce7afef2b684899d3f189c" }
 
 [dev-dependencies]
-soroban-sdk = { git = "https://github.com/stellar/rs-soroban-sdk", branch = "i1451", features = ["testutils"] }
+soroban-sdk = { git = "https://github.com/ahalabs/rs-soroban-sdk", rev = "4bdd847e386c8d8256ce7afef2b684899d3f189c", features = [
+    "testutils",
+] }
